@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import eovImage from './assets/EOV.png';
 // Obrázky nahraj do public/projects a použij cestu ve tvaru '/projects/nazev-obrazku.png'.
 const projects = [
   {
@@ -9,7 +9,7 @@ const projects = [
     tech: ['Flask', 'Html,CSS', 'Python', 'Sql'],
     year: '2026',
     label: 'Aplikace',
-    image: 'src/assets/EOV.png',
+    image: eovImage,
   },
 ]
 
