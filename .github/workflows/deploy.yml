@@ -19,7 +19,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps:https://petrstis.xyz/ }}
+      url: https://petrstis.xyz/
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
